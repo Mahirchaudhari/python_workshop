@@ -1,0 +1,15 @@
+v1 = True
+v2 = False
+print("and operation")
+print("true and false",v1 and v2)
+print("true and true",v1 and v1)
+print("false and true ",v2 and v1)
+print("false and false",v2 and v2)
+print("or operation")
+print("true or true",v1 or v1)
+print("true or false",v1 or v2)
+print("false or true",v2 or v1)
+print("flase or false",v2 or v2)
+print("not operation")
+print("true",not v2)
+print("false",not v1)
